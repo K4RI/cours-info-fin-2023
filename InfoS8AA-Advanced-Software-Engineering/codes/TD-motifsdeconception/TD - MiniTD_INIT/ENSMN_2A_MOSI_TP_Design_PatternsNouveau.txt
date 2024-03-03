@@ -1,0 +1,64 @@
+TP "Premi�re mise en pratique des Motifs de conception ou "Design Patterns".
+
+TP n�1 :
+
+Il s'agit de r�aliser quelques petits exercices. 
+Leur programmation doit vous permettre de comprendre les Motifs en question. 
+Mais surtout et au del� de ces �l�ments simples, cela devrait vous permettre de prendre conscience de l'int�r�t des Patterns.
+
+Exercice 1. Recette de cuisine. Pour vous ouvrir l'app�tit : motifs de conception "Composite" et "Decorator"
+
+	Pr�paration : 
+		M�thode et classe abstraites, interface :
+			Ecrire une classe "Met" qui poss�de les m�thodes : toString() qui renvoie le nom de ce met et les informations suivantes estSucre(), estSale(), estSucreSale(), le nombreDeCalories() et si c'estDietetique() (nombre de kcalories inf�rieur � 200) 
+
+		H�ritage
+			Ecrire les classes Sucre, Sel, Poire, Pomme, Framboise, Veau, Boeuf, Chocolat, Carotte, Haricot _vert qui h�ritent de Met.
+
+	Motif de conception "Composite"
+		On souhaite repr�senter un plat compos� (un boeuf carotte par exemple, ou une poire belle h�l�ne) �galement comme un met particulier.
+		Dans ce cas, la m�thode toString() renvoie la liste des ingr�dients du met compos�. Un met est alors sucr� si au moins un des �l�ments est sucr�, sal� si un au moins est sal� et sucr�-sal� quand il est sucr� et sal�.
+
+		Information : utiliser java.util.ArrayList peut vous aider � implanter vos listes.
+
+	Cr�ez vos propres recettes, en notant que vous pouvez cr��r un met compos� de mets eux-m�mes compos�s, et de plusieurs fois le m�me met dans un programme de test.
+
+
+	Motif de conception "Decorator"
+		On d�sire maintenant cr�er une nouvelle sorte de Mets dits "all�g�s" (ils sont tous di�t�tiques). 
+		On ne veut pas changer les classes existantes (mais en rajouter de nouvelles), de mani�re � avoir par exemple du Boeuf all�g�, etc...
+
+Exercice 2. 
+
+
+On va mettre maintenant en oeuvre le motif structurel Proxy. Nous allons cr�er une simple application qui charge une image.
+
+Le proxy fournit une repr�sentation simplifi�e d'un objet complexe. 
+Ainsi notre proxy va fournir un objet de substitution pendant le chargement d'un objet plus complexe. 
+Durant le chargement le Proxy a recourt � ses propres m�thodes, puis une fois que le chargement est termin�, les m�thodes du Proxy d�l�guent leurs actions aux m�thodes de l'objet.
+
+Exemple d'utilisation : chargement d'un objet report� au moment r�ellement n�cessaire, pr�affichage de l'emplacement d'une image pendant son t�l�chargement.
+Dans notre exercie, le proxy affichera un rectangle barr� repr�sentant l'image en cours de chargement.
+
+2 classes :
+Programme principal : MainProxy qui est fen�tre Swing dans laquelle s'affichera l'image. Il r�alise une instance de ProxyDImage.
+Programme "proxy" : ProxyDImage h�rite de JPanel et doit donc poss�der une m�thode paint() dans laquelle l'essentiel du travail sera r�alis�. 
+Son r�le est donc de lancer le chargement d'une image et d'afficher un rectangle rouge de la taille de l'image pendant ce temps.
+
+Vous utiliserez un MediaTracker pendant le chargement.
+
+
+Exercice 3.
+
+En d�veloppant et modifiant les fichiers "pr�par�s" : le motif de cr�ation "Factory" ou Fabrique
+Nous allons lire des donn�es depuis un fichier sur le disque, ou un fichier plac� sur un serveur HTTP.
+Le principe :
+On cr�e � la place du programmeur l'instance d'objet la plus adapt�e � ses besoins.
+Dans notre exercice, on va utiliser 2 objets/classes: FileDataReader et URLDataReader qui h�ritent de la classe DataReader (classe fournie).
+
+La classe DataReader poss�de donc un champ lecteur prot�g� "in" et une m�thode d'acc�s public.
+Vous �crirez la m�thode statique getReader() dans une classe DataReaderFactory qui sra utilis�e de la fa�on suivante :
+DataReader r = DataReaderFactory.getReader(args[0]);
+System.out.println("Read: "+r.read(512));
+
+Aide : regarder les classes URL, BufferedReader, InputStreamReader, FileReader

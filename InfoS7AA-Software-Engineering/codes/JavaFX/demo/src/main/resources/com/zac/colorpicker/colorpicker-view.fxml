@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Slider?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.zac.colorpicker.ColorPickerController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+    <BorderPane>
+        <left>
+            <VBox>
+                <Button text="Clear image'" layoutX="26.0" layoutY="32.0" onAction="#clearImage"/>
+                <Canvas fx:id="canvasColorPick" layoutX="150.0" layoutY="150.0" width="80" height="80" />
+                <Slider fx:id="sliderColorR"
+                        blockIncrement="1" majorTickUnit="50"
+                        min="1" max="255"
+                        minorTickCount="1" showTickLabels="true" showTickMarks="true" />
+                <Slider fx:id="sliderColorG"
+                        blockIncrement="1" majorTickUnit="50"
+                        min="1" max="255"
+                        minorTickCount="1" showTickLabels="true" showTickMarks="true" />
+                <Slider fx:id="sliderColorB"
+                        blockIncrement="1" majorTickUnit="50"
+                        min="1" max="255"
+                        minorTickCount="1" showTickLabels="true" showTickMarks="true" />
+            </VBox>
+        </left>
+        <center>
+            <Canvas fx:id="canvas" layoutX="4.0" layoutY="4.0" width="450" height="350"/>
+            <!-- <Label text="Red"/> -->
+        </center>
+    </BorderPane>
+
+</VBox>

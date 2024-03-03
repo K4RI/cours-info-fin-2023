@@ -1,0 +1,6 @@
+RabbitMQ management : http://localhost:15672
+
+Wampserver : http://localhost/index.php
+PHPmyadmin : http://localhost/phpmyadmin/
+
+Eclipse GlassFish : http://localhost:8080/ http://localhost:4848/

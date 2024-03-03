@@ -1,0 +1,7 @@
+go 1.22
+
+use (
+    // ./cmd/hello
+    // ./cmd/competition
+    ./cmd/competition/4exercise-trees
+)

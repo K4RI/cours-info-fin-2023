@@ -1,0 +1,4 @@
+277
+Bonjour, je suis une phrase écrite dans le fichier.
+Une autre phrase.
+Encore une autre phrase.

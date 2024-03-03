@@ -1,0 +1,4 @@
+[2023-12-01T08:32:07.414209600+01:00[Europe/Paris]] INFO       | () Main main            | Hello World with java.util.logging
+[2023-12-01T08:32:07.557769200+01:00[Europe/Paris]] INFO       | () Main main            | value == -40
+[2023-12-01T08:32:07.569765500+01:00[Europe/Paris]] INFO       | () Main main            | value == 40
+[2023-12-01T08:32:07.577762300+01:00[Europe/Paris]] INFO       | () Main main            | cpt = 3

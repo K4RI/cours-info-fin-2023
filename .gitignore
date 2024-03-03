@@ -1,0 +1,19 @@
+*.pdf
+*.png
+*.exe
+*.htm
+
+/semaine dep web décembre 2020
+/*/*_fichiers
+**/.idea
+**/.vscode
+**/dist
+**/example-test-fibonacci
+**/imagej-troubleshooting
+**/jakartaee-examples
+**/javafx-examples
+**/node_modules
+**/PersistLab
+**/rabbitmq-baeldung
+**/rabbitmq-tutorials
+**/target

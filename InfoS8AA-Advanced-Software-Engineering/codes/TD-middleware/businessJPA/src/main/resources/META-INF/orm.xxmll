@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings version="2.1"
+	xmlns="http://www.eclipse.org/eclipselink/xsds/persistence/orm"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<!--object-type-converter name="gender-converter" object-type="String" data-type="String">
+		<conversion-value object-value="Male" data-value="M" /> <conversion-value
+		object-value="Female" data-value="F" /> </object-type-converter -->
+    <persistence-unit-metadata>
+        <persistence-unit-defaults>
+            <driver>com.mysql.cj.jdbc.Driver</driver>
+            <url>jdbc:mysql://localhost:3306/businessjpa</url>
+            <user>root</user>
+            <password>azerty</password>
+        </persistence-unit-defaults>
+    </persistence-unit-metadata>
+
+</entity-mappings>
