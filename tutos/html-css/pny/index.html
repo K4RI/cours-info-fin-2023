@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+        Projet d'introduction à l'utilisation d'API, ici celui de Google Maps.
+        https://projects.raspberrypi.org/en/projects/poo-near-you
+    -->
+    <meta charset="utf-8">
+    <title>Carte</title>
+    <style>
+    #map {
+        width: 100%;
+        height: 400px;
+        background-color: grey;
+    }
+    </style>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+</head>
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5qs7O3JsB8lQgdkmR4DtnOE4pVMIxs1U&callback=initMap&loading=async">
+</script>
+<body>
+    La carte
+    <div id="map"></div>
+
+    <script>
+        async function initMap() {
+            const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");            
+            var Marseille = {lat: 43.316146, lng: 5.405561};
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 10,
+                center: Marseille,               
+                mapId: "DEMO_MAP_ID",
+            });            
+
+            /*
+                "google.maps.Marker is deprecated" donc faut utiliser les marker.AdvancedMarkerElement
+                https://developers.google.com/maps/documentation/javascript/advanced-markers/migration
+                https://stackoverflow.com/questions/77187060/google-maps-js-api-advanced-marker-show-only-nearest-markers
+            */            
+            var geocoder = new google.maps.Geocoder();            
+            var data_file = "http://127.0.0.1:8000/marseille_monuments_historiques_2018.json";
+            // marche pas avec localhost ??
+            $.getJSON(data_file, function(data){
+                $.each(data, function(i){
+                    var adr = data[i]["Adresse"]
+                    if (adr != "/" && adr != "") {
+                        var monument_location =  adr + ", Marseille, France";
+                        geocoder.geocode( { 'address': monument_location }, function(results) {
+                            var marker = new google.maps.Marker({ // ou "google.maps.marker.AdvancedMarkerElement" mais ne possède pas l'animation...
+                                map: map,
+                                position: results[0].geometry.location,
+                                animation: google.maps.Animation.DROP,
+                                /*icon: {
+                                    url: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
+                                },*/
+                                title: data[i]["Dénomination"]
+                            });
+                        });
+                    }
+                    if( i == 2 ){ return false; }
+                });
+            });
+            
+        }
+    </script>
+</body>
+</html>

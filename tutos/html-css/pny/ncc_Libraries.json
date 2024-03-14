@@ -1,0 +1,286 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "ncc_Libraries",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 455558.0000158427, 344920.0001321398 ]
+			},
+			"properties" : {
+				"NAME" : "Southglade Park Library",
+				"ADDRESS" : "Southglade Park Library, Southglade Road, Nottingham, NG5 5GU",
+				"POSTCODE" : "NG5 5GU",
+				"WEBSITE" : "https://www.nottinghamcitylibraries.co.uk/library/southglade-park-library/",
+				"EASTING" : 455558.0000158427,
+				"NORTHING" : 344920.0001321398,
+				"LAT" : 52.99874943427876,
+				"LONG" : -1.17362607080453,
+				"BODY" : "http://data.ordnancesurvey.co.uk/doc/7000000000038857\n",
+				"BODY_NAME" : "Nottingham City Council",
+				"CREATE_DAT" : "20231207"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 451819.0000123605, 341122.0001286026 ]
+			},
+			"properties" : {
+				"NAME" : "Bilborough Library",
+				"ADDRESS" : "Bilborough Library, Bracebridge Drive, Nottingham, NG8 4PN",
+				"POSTCODE" : "NG8 4PN",
+				"WEBSITE" : "https://www.nottinghamcitylibraries.co.uk/library/bilborough-library/",
+				"EASTING" : 451819.0000123605,
+				"NORTHING" : 341122.0001286026,
+				"LAT" : 52.964985750598544,
+				"LONG" : -1.2299399937525854,
+				"BODY" : "http://data.ordnancesurvey.co.uk/doc/7000000000038857\n",
+				"BODY_NAME" : "Nottingham City Council",
+				"CREATE_DAT" : "20231207"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 455452.000015744, 334241.00012219325 ]
+			},
+			"properties" : {
+				"NAME" : "Clifton Library",
+				"ADDRESS" : "Clifton Library, Southchurch Drive, Nottingham, NG11 8AB",
+				"POSTCODE" : "NG11 8AB",
+				"WEBSITE" : "https://www.nottinghamcitylibraries.co.uk/library/clifton-library/",
+				"EASTING" : 455452.000015744,
+				"NORTHING" : 334241.00012219325,
+				"LAT" : 52.90277461205407,
+				"LONG" : -1.17702837641477,
+				"BODY" : "http://data.ordnancesurvey.co.uk/doc/7000000000038857\n",
+				"BODY_NAME" : "Nottingham City Council",
+				"CREATE_DAT" : "20231207"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 452653.46999713685, 342149.4800015595 ]
+			},
+			"properties" : {
+				"NAME" : "Strelley Road Library",
+				"ADDRESS" : "Strelley Road Library, 14 Strelley Road, Nottingham, NG8 3BJ",
+				"POSTCODE" : "NG8 3BJ",
+				"WEBSITE" : "https://www.nottinghamcitylibraries.co.uk/library/strelley-road-library/",
+				"EASTING" : 452653.46999713685,
+				"NORTHING" : 342149.4800015595,
+				"LAT" : 52.97414009586329,
+				"LONG" : -1.2173508101871913,
+				"BODY" : "http://data.ordnancesurvey.co.uk/doc/7000000000038857\n",
+				"BODY_NAME" : "Nottingham City Council",
+				"CREATE_DAT" : "20231207"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 455136.0000154497, 343282.00013061427 ]
+			},
+			"properties" : {
+				"NAME" : "Basford Library",
+				"ADDRESS" : "Basford Library, Vernon Road, Nottingham, NG6 0AR",
+				"POSTCODE" : "NG6 0AR",
+				"WEBSITE" : "https://www.nottinghamcitylibraries.co.uk/library/basford-library/",
+				"EASTING" : 455136.0000154497,
+				"NORTHING" : 343282.00013061427,
+				"LAT" : 52.984070292155096,
+				"LONG" : -1.1801919026780696,
+				"BODY" : "http://data.ordnancesurvey.co.uk/doc/7000000000038857\n",
+				"BODY_NAME" : "Nottingham City Council",
+				"CREATE_DAT" : "20231207"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 455454.00001574587, 340042.0001275968 ]
+			},
+			"properties" : {
+				"NAME" : "Radford-Lenton Library",
+				"ADDRESS" : "Radford And Lenton Library, Lenton Boulevard, Nottingham, NG7 2BY",
+				"POSTCODE" : "NG7 2BY",
+				"WEBSITE" : "https://www.nottinghamcitylibraries.co.uk/library/radford-lenton-library/",
+				"EASTING" : 455454.00001574587,
+				"NORTHING" : 340042.0001275968,
+				"LAT" : 52.954916346143285,
+				"LONG" : -1.1760097611294957,
+				"BODY" : "http://data.ordnancesurvey.co.uk/doc/7000000000038857\n",
+				"BODY_NAME" : "Nottingham City Council",
+				"CREATE_DAT" : "20231207"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 457526.0000176756, 338470.00012613274 ]
+			},
+			"properties" : {
+				"NAME" : "Meadows Library",
+				"ADDRESS" : "Meadows Library, Wilford Grove, Nottingham, NG2 2DR",
+				"POSTCODE" : "NG2 2DR",
+				"WEBSITE" : "https://www.nottinghamcitylibraries.co.uk/library/the-meadows-library/",
+				"EASTING" : 457526.0000176756,
+				"NORTHING" : 338470.00012613274,
+				"LAT" : 52.94056882113374,
+				"LONG" : -1.1454506213799234,
+				"BODY" : "http://data.ordnancesurvey.co.uk/doc/7000000000038857\n",
+				"BODY_NAME" : "Nottingham City Council",
+				"CREATE_DAT" : "20231207"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 458122.98206623085, 340949.5385604426 ]
+			},
+			"properties" : {
+				"NAME" : "St Ann's Valley Library",
+				"ADDRESS" : "St Ann's Valley Centre, 2 Livingstone Road, Nottingham, NG3 3GG",
+				"POSTCODE" : "NG3 3GG",
+				"WEBSITE" : "https://www.nottinghamcitylibraries.co.uk/library/st-anns-valley-library/",
+				"EASTING" : 458122.98206623085,
+				"NORTHING" : 340949.5385604426,
+				"LAT" : 52.96279133239848,
+				"LONG" : -1.1361250756086416,
+				"BODY" : "http://data.ordnancesurvey.co.uk/doc/7000000000038857\n",
+				"BODY_NAME" : "Nottingham City Council",
+				"CREATE_DAT" : "20231207"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 455719.2987679923, 341116.76268859766 ]
+			},
+			"properties" : {
+				"NAME" : "Hyson Green Library",
+				"ADDRESS" : "The Mary Potter Centre, 76 Gregory Boulevard, Nottingham, NG7 5HY",
+				"POSTCODE" : "NG7 5HY",
+				"WEBSITE" : "https://www.nottinghamcitylibraries.co.uk/library/hyson-green-library-mary-potter-centre/",
+				"EASTING" : 455719.2987679923,
+				"NORTHING" : 341116.76268859766,
+				"LAT" : 52.96454880543723,
+				"LONG" : -1.171877168865746,
+				"BODY" : "http://data.ordnancesurvey.co.uk/doc/7000000000038857\n",
+				"BODY_NAME" : "Nottingham City Council",
+				"CREATE_DAT" : "20231207"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 454018.0000144085, 344827.0000040531 ]
+			},
+			"properties" : {
+				"NAME" : "Bulwell Riverside Library",
+				"ADDRESS" : "Bulwell Riverside Centre, Main Street, Bulwell, NG6 8QJ",
+				"POSTCODE" : "NG6 8QJ",
+				"WEBSITE" : "https://www.nottinghamcitylibraries.co.uk/library/bulwell-riverside-library/",
+				"EASTING" : 454018.0000144085,
+				"NORTHING" : 344827.0000040531,
+				"LAT" : 52.998070672153,
+				"LONG" : -1.1965855768909601,
+				"BODY" : "http://data.ordnancesurvey.co.uk/doc/7000000000038857\n",
+				"BODY_NAME" : "Nottingham City Council",
+				"CREATE_DAT" : "20231207"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 454364.00001473073, 342581.0001299605 ]
+			},
+			"properties" : {
+				"NAME" : "Aspley Library",
+				"ADDRESS" : "Aspley Library, Nuthall Road, Nottingham, NG8 5DD",
+				"POSTCODE" : "NG8 5DD",
+				"WEBSITE" : "https://www.nottinghamcitylibraries.co.uk/library/aspley-library/",
+				"EASTING" : 454364.00001473073,
+				"NORTHING" : 342581.0001299605,
+				"LAT" : 52.9778482771585,
+				"LONG" : -1.191807659984196,
+				"BODY" : "http://data.ordnancesurvey.co.uk/doc/7000000000038857\n",
+				"BODY_NAME" : "Nottingham City Council",
+				"CREATE_DAT" : "20231207"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 452417.00001291744, 339758.0001273323 ]
+			},
+			"properties" : {
+				"NAME" : "Wollaton Library",
+				"ADDRESS" : "Wollaton Library, Bramcote Lane, Nottingham, NG8 2NA",
+				"POSTCODE" : "NG8 2NA",
+				"WEBSITE" : "https://www.nottinghamcitylibraries.co.uk/library/wollaton-library/",
+				"EASTING" : 452417.00001291744,
+				"NORTHING" : 339758.0001273323,
+				"LAT" : 52.952667810577466,
+				"LONG" : -1.2212569149025447,
+				"BODY" : "http://data.ordnancesurvey.co.uk/doc/7000000000038857\n",
+				"BODY_NAME" : "Nottingham City Council",
+				"CREATE_DAT" : "20231207"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 459168.3174912045, 340064.4167036172 ]
+			},
+			"properties" : {
+				"NAME" : "Dales Centre Library",
+				"ADDRESS" : "The Dales Centre, 206 Sneinton Dale, Nottingham, NG2 4HJ",
+				"POSTCODE" : "NG2 4HJ",
+				"WEBSITE" : "https://www.nottinghamcitylibraries.co.uk/library/dales-centre-library/",
+				"EASTING" : 459168.3174912045,
+				"NORTHING" : 340064.4167036172,
+				"LAT" : 52.954721675916105,
+				"LONG" : -1.1207253424822172,
+				"BODY" : "http://data.ordnancesurvey.co.uk/doc/7000000000038857\n",
+				"BODY_NAME" : "Nottingham City Council",
+				"CREATE_DAT" : "20231207"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 457404.87252956256, 339441.59222303703 ]
+			},
+			"properties" : {
+				"NAME" : "Nottingham Central Library",
+				"ADDRESS" : "1 Carrington Street, Nottingham NG1 7FF",
+				"POSTCODE" : "NG1 7FF",
+				"WEBSITE" : "https://www.nottinghamcitylibraries.co.uk/library/nottingham-central-library/",
+				"EASTING" : 457404.87252956256,
+				"NORTHING" : 339441.59222303703,
+				"LAT" : 52.9493147338779,
+				"LONG" : -1.1470813576289312,
+				"BODY" : "http://data.ordnancesurvey.co.uk/doc/7000000000038857\n",
+				"BODY_NAME" : "Nottingham City Council",
+				"CREATE_DAT" : "20231207"
+			}
+		}
+	]
+}

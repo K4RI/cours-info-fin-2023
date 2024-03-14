@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--https://www.w3schools.com/jquery/ajax_getjson.asp-->
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    $("button").click(function(){
+        $.getJSON("marseille_monuments_historiques_2018.json", function(result){
+        $.each(result, function(i, field){
+            $("div").append(field["Dénomination"] + "</br>");
+        });
+        });
+    });
+    });
+    </script>
+</head>
+<body>
+    <button>Get JSON data</button>
+    <div></div>
+</body>
+</html>
