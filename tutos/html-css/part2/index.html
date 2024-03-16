@@ -1,15 +1,39 @@
 <!DOCTYPE HTML>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="config.js"></script>
-    <script src="script.js"></script>
-    <script src="main.js"></script>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="config.js" defer></script>
+        <script src="script.js" defer></script>
+        <script src="main.js" defer></script>
+    </head>
 
-</body>
+    <body>
+        <div class="zoneChoix">
+            <input type="radio" name="optionSource" id="mots" value="1" checked>
+            <label for="mots">Mots</label>
+            <input type="radio" name="optionSource" id="phrases" value="2">
+            <label for="phrases">Phrases</label>
+        </div>
+        </br>
+
+        <div id="zoneProposition">
+            <span>Entrez le mot : </span></br>
+            <input type="text" name="entree" id="entree" autofocus>
+            <button id="valider">Valider</button>
+        </div>
+        </br>
+
+        <div id="zoneScore">Début du jeu. Votre score est de 0/0.</div>
+        <button id="partager" style="display:none">Partager</button> <br>
+        <form id="partagerForm" style="display: none" novalidate>
+            <!--novalidate = ce n'est pas le navigateur qui vérifie l'email-->
+            <label for="nom">Ton nom ? </label> <input type="text" name="nom" id="nom"> <br>
+            <label for="email">Le mail ? </label> <input type="email" name="email" id="email"> <br>
+            <button>Envoyer</button> <!--Va envoyer un submit -->
+        </form>
+        <div id="messageErreur"></div>
+    </body>
 </html>
