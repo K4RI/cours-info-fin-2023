@@ -1,4 +1,4 @@
-let baliseZoneProposition = document.getElementById("zoneProposition");
+/*let baliseZoneProposition = document.getElementById("zoneProposition");
 console.log(baliseZoneProposition);
 
 let baliseZonePropositionSpan = document.querySelector("#zoneProposition span");
@@ -10,6 +10,6 @@ for (let i = 0; i < listeInputRadio.length; i++) {
     console.log(listeInputRadio[i]);
 }
 
-console.log(document.querySelector("#valider"))
+console.log(document.querySelector("#valider"))*/
 
 lancerJeu();

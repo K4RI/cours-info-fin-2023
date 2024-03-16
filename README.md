@@ -16,3 +16,4 @@ Cours et exercices et TD en divers domaines et langages pour me remettre à jour
   * JavaScript, TypeScript (closure, usage de npm)
 * **Cours additionnels**
   * C/C++ (standard library, pointeurs, héritage, polymorphisme, conteneurs, foncteurs)
+  * Programmation Web HTML/CSS/JavaScript (format JSON, usage d'API)
