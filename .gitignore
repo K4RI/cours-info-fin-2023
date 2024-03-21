@@ -6,8 +6,9 @@
 /semaine dep web décembre 2020
 /*/*_fichiers
 **/.idea
+**/.parcel-cache
+**/parcel-bundle-reports
 **/.vscode
-**/dist
 **/example-test-fibonacci
 **/imagej-troubleshooting
 **/jakartaee-examples
