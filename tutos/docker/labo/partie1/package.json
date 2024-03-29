@@ -1,0 +1,16 @@
+{
+  "name": "app-jej",
+  "version": "1.0.0",
+  "description": "une appli de jej pour tester docker",
+  "author": "jej",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -L app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  }
+}

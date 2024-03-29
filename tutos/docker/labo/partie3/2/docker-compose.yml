@@ -1,0 +1,15 @@
+version: "3"
+services:
+  redis:
+    image: redis
+    ports:
+      - '6379:6379'
+  application:
+    depends_on:
+      - redis
+    image: dockerfacile/app
+    ports:
+      - 5000:5000
+
+# https://openclassrooms.com/forum/sujet/cours-docker-compose
+# https://openclassrooms.com/forum/sujet/docker-redis ???
