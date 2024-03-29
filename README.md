@@ -1,5 +1,5 @@
 # Cours info fin 2023
-Cours et exercices et TD en divers domaines et langages pour me remettre à jour, travaillés de novembre 2023 à février 2024.
+Cours et exercices et TD en divers domaines et langages pour me remettre à jour, travaillés de novembre 2023 à mars 2024.
 
 * **Développement logiciel (C, Java)**
   * Programmation orientée objet
@@ -17,3 +17,4 @@ Cours et exercices et TD en divers domaines et langages pour me remettre à jour
 * **Cours additionnels**
   * C/C++ (standard library, pointeurs, héritage, polymorphisme, conteneurs, foncteurs)
   * Programmation Web HTML/CSS/JavaScript (format JSON, usage d'API)
+  * Docker (conteneurs, Docker Compose, exemples avec JavaScript (express.js) et Python (framework Flask avec serveur Redis))
