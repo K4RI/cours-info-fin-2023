@@ -1,5 +1,5 @@
 # Cours info fin 2023
-Cours et exercices et TD en divers domaines et langages pour me remettre à jour, travaillés de novembre 2023 à mars 2024.
+Cours et exercices et TD en divers domaines et langages, travaillés ou retravaillés en auto-didacte de novembre 2023 à mars 2024.
 
 * **Développement logiciel (C, Java)**
   * Programmation orientée objet
@@ -13,8 +13,9 @@ Cours et exercices et TD en divers domaines et langages pour me remettre à jour
   * Middleware de communication JDBC et JPA (RabbitMQ, Wampserver, MySQL avec PHPMyAdmin)
 * **Langages de programmation**
   * Go : programmation concurrente (race conditions, goroutines, threads)
-  * JavaScript, TypeScript (closure, usage de npm)
+  * JavaScript, TypeScript (closure, Node.js)
 * **Cours additionnels**
   * C/C++ (standard library, pointeurs, héritage, polymorphisme, conteneurs, foncteurs)
   * Programmation Web HTML/CSS/JavaScript (format JSON, usage d'API)
   * Docker (conteneurs, Docker Compose, exemples avec JavaScript (express.js) et Python (framework Flask avec serveur Redis))
+  * Kubernetes (orchestration de conteneurs)
