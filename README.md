@@ -17,5 +17,4 @@ Cours et exercices et TD en divers domaines et langages, travaillés ou retravai
 * **Cours additionnels**
   * C/C++ (standard library, pointeurs, héritage, polymorphisme, conteneurs, foncteurs)
   * Programmation Web HTML/CSS/JavaScript (format JSON, usage d'API)
-  * Docker (conteneurs, Docker Compose, exemples avec JavaScript (express.js) et Python (framework Flask avec serveur Redis))
-  * Kubernetes (orchestration de conteneurs)
+  * Conteneurs logiciels (Docker, Docker Compose, Kubernetes, mises en application avec JavaScript (express.js) et Python (framework Flask avec serveur Redis))
